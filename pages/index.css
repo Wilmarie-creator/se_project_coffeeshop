@@ -15,10 +15,15 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url(../images/background_header.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
 }
 
 .header__image {
-  z-index: -1;
+  z-index: 1;
   position: absolute;
   width: 646px;
   height: 568px;
@@ -26,8 +31,8 @@
   right: 5px;
   left: auto;
   margin: 0;
+  overlay: auto;
 }
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -69,6 +74,7 @@
   margin: 183px 0 0;
   letter-spacing: -0.6px;
   z-index: 3;
+  overflow: hidden;
 }
 
 .header__description {
@@ -91,6 +97,17 @@
   line-height: 20px;
   color: #838383;
   margin-top: auto;
+  margin-bottom: 40px;
+}
+
+.header__paragraph {
+  margin: 0px;
+}
+
+.header__address {
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
 }
 
 .header__span-accent {
@@ -98,21 +115,17 @@
   display: block;
 }
 
-.header__paragraph {
-  margin: 0;
-}
-
 .recipes {
   padding: 100px 80px 215px;
-  max-width: 580px;
-  width: 100%;
   height: 100vh;
   background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   margin: 0;
+  gap: 24px;
 }
 
 .recipes__title {
@@ -121,25 +134,40 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  max-width: 580px;
+  margin: 0;
 }
 
-.recipes__subtitle {
+.recipe__subtitle {
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+  margin-bottom: 80px;
+  max-width: 438px;
 }
 
 .recipes__videos {
   display: flex;
   justify-content: center;
   gap: 40px;
+  margin: 0 0 80px;
+  height: 273px;
 }
 
+.div .recipe__videos {
+  width: 480px;
+}
+.recipes__iframe {
+  width: "560";
+  height: "315";
+  frameborder: "0";
+  gap: 24px;
+}
 .recipes__video-caption {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 24px 0 0;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
