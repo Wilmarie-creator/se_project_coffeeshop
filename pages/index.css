@@ -31,7 +31,6 @@
   right: 5px;
   left: auto;
   margin: 0;
-  overlay: auto;
 }
 .nav {
   display: flex;
@@ -160,9 +159,8 @@
   width: 480px;
 }
 .recipes__iframe {
-  width: "560";
-  height: "315";
-  frameborder: "0";
+  width: 560px;
+  height: 315px;
   gap: 24px;
 }
 .recipes__video-caption {
