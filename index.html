@@ -108,26 +108,30 @@
                 name="name"
                 placeholder="Name Surname"
               />
-              <label for="guests" class="form__label">Number of guests *</label>
+              <label for="number of guests" class="form__label"
+                >Number of guests *</label
+              >
               <input
                 type="number"
                 min="1"
                 max="8"
+                id="number of guests"
                 class="form__input"
                 placeholder="1-8"
               />
-              <label for="" class="form__label">Date &time *</label>
-              <input type="datetime-local" class="form__input" />
+              <label for="date" class="form__label">Date &time *</label>
+              <input type="datetime-local" class="form__input" id="date" />
               <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
                 class="form__input"
+                id="email"
                 placeholder="email@email.com"
               />
             </fieldset>
             <button class="form__button">Book a table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" class="form__label" />
+              <input type="checkbox" id="checkbox" class="form__label" />
               I agree with the terms of use
             </label>
           </form>
