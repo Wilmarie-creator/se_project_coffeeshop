@@ -261,8 +261,15 @@
 }
 
 .form__checkbox {
+  appearance: none;
   width: 20px;
   height: 20px;
-  margin: 12px;
   border-radius: 2px;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #2f80ed;
+  background-image: url(../images/check.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
