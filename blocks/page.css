@@ -7,3 +7,106 @@
   line-height: 20px;
   margin: auto;
 }
+
+.about {
+  display: flex;
+  position: relative;
+  padding: 0 80px 0;
+  background-color: #0a2850;
+}
+
+.about__title {
+  display: flex;
+  padding: 100px 80px 0;
+  width: 426px;
+  height: 426px;
+  max-width: 251px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 2;
+}
+
+.about.circle {
+  display: flex;
+  position: absolute;
+  background-color: 2f80ed;
+  border-radius: 50%;
+  z-index: 0;
+  top: -152px;
+  left: -129px;
+}
+
+.about__content {
+  /*display: flex;
+  flex-direction: column;*/
+  margin: 0;
+  max-width: 660px;
+  padding: 119px 80px 173px;
+  max-width: 660px;
+  gap: 20px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraph {
+  margin: 0 0 20px;
+}
+
+.about__paragraph :last-child {
+  margin: 0;
+}
+
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, 071931 100%);
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*.footer__logo {
+}*/
+
+.footer__social-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+}
+
+.footer__list-item {
+  margin-top: 16px;
+}
+
+.footer__social_link {
+  color: #c1c1c1;
+}
+.footer__socia_icon {
+  height: 16px;
+  width: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer__copyright {
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+}
