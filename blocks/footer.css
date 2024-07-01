@@ -1,0 +1,61 @@
+.footer {
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px 168px;
+  color: #fff;
+}
+
+.footer__logo {
+  display: flex;
+  justify-content: space-between;
+  width: 105px;
+  height: 39px;
+}
+
+.footer__social-heading {
+  margin: 0 0 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__list-item {
+  margin-top: 16px;
+}
+
+.footer__social_link {
+  transition-duration: 2s;
+  margin: 16px;
+}
+
+.footer__social_link:hover {
+  background-color: #c1c1c1;
+}
+.footer__socia_icon {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.footer__copyright {
+  padding: 108px 80px 60px;
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  color: #fff;
+}
