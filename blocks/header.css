@@ -11,6 +11,7 @@
   background-position: center;
   background-size: cover;
   z-index: -1;
+  box-sizing: border-box;
 }
 
 .header__image {
@@ -26,7 +27,7 @@
 
 .header__title {
   max-width: 729px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
