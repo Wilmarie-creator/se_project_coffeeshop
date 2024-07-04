@@ -28,7 +28,7 @@
   width: 426px;
   height: 426px;
   max-width: 251px;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -63,7 +63,7 @@
   padding: 119px 0 173px;
   max-width: 660px;
   gap: 20px;
-  font-family: "Noto Serif" "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

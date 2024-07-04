@@ -12,6 +12,7 @@
   background-size: cover;
   z-index: -1;
   box-sizing: border-box;
+  margin: 0;
 }
 
 .header__image {
@@ -35,7 +36,7 @@
   gap: 28px;
   margin: 183px 0 0;
   letter-spacing: -0.6px;
-  z-index: 3;
+  z-index: 2;
   overflow: hidden;
 }
 

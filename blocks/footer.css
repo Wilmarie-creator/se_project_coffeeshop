@@ -1,24 +1,30 @@
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  padding: 60px 80px 60px;
 }
 
 .footer__column {
   display: flex;
   justify-content: space-between;
-  padding: 60px 80px 0;
+  flex-direction: column;
   color: #fff;
+  padding: 0;
 }
 
 .footer__logo {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 105px;
   height: 39px;
 }
 
 .footer__social-heading {
+  display: flex;
+  align-items: center;
+  padding: 0;
   margin: 0 0 20px;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -39,22 +45,27 @@
   display: flex;
   align-items: center;
   transition-duration: 2s;
+  color: #fff;
+  gap: 10px;
 }
 
 .footer__social_link:hover {
   background-color: #c1c1c1;
+  transition-duration: 2s;
 }
+
 .footer__socia_icon {
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  color: #fff;
 }
 .footer__copyright {
-  padding: 108px 80px 60px;
+  padding: 108px 0px 60px;
   margin: 0;
-  font-family: "Inter" Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: normal;
