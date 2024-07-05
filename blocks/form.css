@@ -65,10 +65,17 @@
 }
 
 .form__checkbox {
-  appearance: none;
+  /*appearance: none;
   width: 20px;
-  height: 20px;
+  height: 20px;*/
+  display: flex;
+  justify-content: center;
+  gap: 12px;
   border-radius: 2px;
+  text-align: center;
+}
+
+.form__checkbox_text {
   text-align: center;
 }
 

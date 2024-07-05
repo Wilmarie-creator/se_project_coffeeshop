@@ -1,4 +1,6 @@
 .footer {
+  color: #fff;
+  padding: 0;
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   padding: 60px 80px 60px;
 }
@@ -6,24 +8,25 @@
 .footer__column {
   display: flex;
   justify-content: space-between;
-  flex-direction: column;
   color: #fff;
   padding: 0;
+  margin-left: auto;
 }
 
 .footer__logo {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between;*/
   width: 105px;
   height: 39px;
+  margin-right: auto;
 }
 
 .footer__social-heading {
-  display: flex;
-  align-items: center;
+  /*display: flex;*/
+  /*align-items: center;*/
   padding: 0;
-  margin: 0 0 20px;
+  margin: 0 0 4px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -42,17 +45,22 @@
 }
 
 .footer__social-link {
-  display: flex;
-  align-items: center;
+  /*display: flex;
+  align-items: center;*/
   transition-duration: 2s;
   color: #fff;
   gap: 10px;
+  text-decoration: none;
 }
 
 .footer__social_link:hover {
   background-color: #c1c1c1;
   transition-duration: 2s;
 }
+
+/*.footer__social-link :last-child {
+  margin-bottom: 0;
+}*/
 
 .footer__socia_icon {
   font-family: "Inter", Arial, sans-serif;
@@ -63,7 +71,7 @@
   color: #fff;
 }
 .footer__copyright {
-  padding: 108px 0px 60px;
+  padding: 108px 0px 0px;
   margin: 0;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;

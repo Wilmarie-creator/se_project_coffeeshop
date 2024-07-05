@@ -10,7 +10,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  z-index: -1;
   box-sizing: border-box;
   margin: 0;
 }
