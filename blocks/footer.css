@@ -45,16 +45,22 @@
 }
 
 .footer__social-link {
-  /*display: flex;
-  align-items: center;*/
+  display: flex;
+  /*align-items: center*/
   transition-duration: 2s;
   color: #fff;
   gap: 10px;
   text-decoration: none;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
 }
 
-.footer__social_link:hover {
-  background-color: #c1c1c1;
+.footer__social-link:hover {
+  color: #c1c1c1;
   transition-duration: 2s;
 }
 
@@ -62,13 +68,9 @@
   margin-bottom: 0;
 }*/
 
-.footer__socia_icon {
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fff;
+.footer__social-icon {
+  display: flex;
+  align-items: center;
 }
 .footer__copyright {
   padding: 108px 0px 0px;
