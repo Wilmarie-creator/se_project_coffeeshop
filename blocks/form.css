@@ -65,19 +65,15 @@
 }
 
 .form__checkbox {
-  /*appearance: none;
+  /*appearance: none;*/
   width: 20px;
-  height: 20px;*/
+  height: 20px;
   display: flex;
   justify-content: center;
   gap: 12px;
   border-radius: 2px;
   text-align: center;
   accent-color: #2f80ed;
-}
-
-.form__checkbox-text {
-  text-align: center;
 }
 
 .form__checkbox_checkbox :checked {
